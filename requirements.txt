@@ -1,0 +1,6 @@
+selenium
+ddt
+nose
+nose_xunitmp
+nose-testconfig
+python-dateutil
