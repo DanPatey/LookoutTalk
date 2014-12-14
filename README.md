@@ -35,8 +35,7 @@ which pip
 
 sudo pip install -r requirements.txt
 
-<ul>
-</ul>
+##list of example files
 
 <ul>
 <li>0generatortest.py -- An example of how a generator iterates through yield producing results but does not store anything in memory.
