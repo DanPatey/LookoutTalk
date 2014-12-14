@@ -45,3 +45,10 @@ sudo pip install -r requirements.txt
 <li>2logintest.py -- data/users.py -- An example showing how we can keep our data in a seperate file and create a function that we can re-use with every test.
 <li>3big_example.py -- data/sample_data.py -- pages/page_class.py(Note this should be a CSS map, I'll be changing this soon --- A close to real-world example of how we can use a test to call to a class that stores information to manipulate our data. We split our tests into multiple suites and provide any information we need to input in the data file as well.
 </ul>
+
+##Thanks to
+
+<ul>
+<li>https://technomilk.wordpress.com TechnoMilk for creating DDT and proving examples on his blog
+<li>http://ddt.readthedocs.org/ for an explanation of nosetests
+<li>http://swordstyle.com/func_test_tutorial/part_one/extra_generative_tests.html for a fantastic example and explanation of generators
