@@ -29,5 +29,5 @@ class Login(object):
         except Exception as e:
             self.login_as_user(user)
 
-    def as_telemaster_user(self, identifier):
+    def as_mywebsite_user(self, identifier):
         return self.as_user(users.users[identifier])

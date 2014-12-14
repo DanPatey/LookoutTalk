@@ -9,13 +9,15 @@ class TestName(unittest.TestCase):
     
     # simple decorator usage:
     list1 = [1, 2, 3, 4]
-    @data(*list1)
+    # add a '*' before list1 to make the test iterate
+    @data(list1)
     def test_greater_than_zero(self, value):
       self.assertGreater(value, 0)
         
     # passing data in tuples to achieve the 
     # scenarios from your given example:
     @data(('Bob', 'Bob'), ('Alice', 'Alice'))
+    # we can also use '@unpack' to iterate through a test
     @unpack
     def test_name(self, first_value, second_value):
       name, expected_name = first_value, second_value
